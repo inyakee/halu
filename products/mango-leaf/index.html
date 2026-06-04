@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Mango Leaf Products | Restful Seed Farm</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = { theme: { extend: { colors: { greenDeep: "#1f6b20", greenCore: "#4a9f20", brownSeed: "#5a2f1f", cream: "#f3f1e6" }, fontFamily: { serif: ["Cormorant Garamond", "Times New Roman", "serif"], sans: ["Inter", "system-ui", "-apple-system", "sans-serif"] } } } };
+    </script>
+    <link rel="stylesheet" href="../../styles.css" />
+  </head>
+  <body class="product-page text-[#1b1b1b] font-sans">
+    <header class="sticky top-0 z-20 border-b border-brownSeed/10 bg-cream/85 backdrop-blur-xl">
+      <nav class="mx-auto flex max-w-6xl items-center justify-between px-6 py-5">
+        <a class="flex items-center gap-3 text-brownSeed" href="/" aria-label="Restful Seed Farm home">
+          <img
+            src="../../assets/1818.png"
+            alt="Restful Seed Farm logo"
+            class="h-12 w-12 rounded-full object-cover shadow-soft"
+          />
+          <div class="grid">
+            <span class="font-serif text-lg">Restful Seed Farm</span>
+            <span class="text-[0.7rem] uppercase tracking-[0.2em] text-brownSeed/60">
+              Natural Agricultural Techniques
+            </span>
+          </div>
+        </a>
+        <button
+          class="nav-toggle flex flex-col gap-1.5 rounded-full border border-brownSeed/20 px-3 py-2 text-brownSeed lg:hidden"
+          aria-label="Toggle menu"
+          aria-expanded="false"
+        >
+          <span class="h-0.5 w-6 rounded-full bg-brownSeed"></span>
+          <span class="h-0.5 w-6 rounded-full bg-brownSeed"></span>
+          <span class="h-0.5 w-6 rounded-full bg-brownSeed"></span>
+        </button>
+        <div class="nav-menu hidden items-center gap-7 font-medium text-brownSeed lg:flex">
+          <a class="nav-link-underline" href="/#about">About</a>
+          <a class="nav-link-underline" href="/#services">Services</a>
+          <a class="nav-link-underline" href="/products/">Products</a>
+          <a class="nav-link-underline" href="/resources/">Resources</a>
+          <a class="nav-link-underline" href="/#why">Why Us</a>
+          <a class="nav-link-underline" href="/#contact">Contact</a>
+        </div>
+      </nav>
+      <div
+        class="nav-menu-mobile mx-auto hidden max-w-6xl flex-col gap-4 px-6 pb-5 text-brownSeed lg:hidden"
+      >
+        <a class="nav-link-underline" href="/#about">About</a>
+        <a class="nav-link-underline" href="/#services">Services</a>
+        <a class="nav-link-underline" href="/products/">Products</a>
+        <a class="nav-link-underline" href="/resources/">Resources</a>
+        <a class="nav-link-underline" href="/#why">Why Us</a>
+        <a class="nav-link-underline" href="/#contact">Contact</a>
+      </div>
+    </header>
+    <main>
+      <section class="section">
+        <div class="mx-auto max-w-5xl px-6">
+          <a class="font-semibold text-greenDeep" href="/products/">Back to products</a>
+          <span class="product-status mt-8">Soon to be available</span>
+          <h1 class="mt-4 font-serif text-4xl md:text-5xl">Mango Leaf - Sweet Elena</h1>
+          <p class="mt-5 text-lg text-brownSeed/75">
+            A fragrant leaf line planned from Sweet Elena mango trees, shaped for
+            tea, herbal blends, and powdered use. The final scientific name entry
+            will be added after confirmation.
+          </p>
+          <div class="product-note mt-8 rounded-md p-5 text-brownSeed/75">
+            Scientific name: to be confirmed.
+          </div>
+          <div class="mt-8 product-note rounded-md p-5 text-brownSeed/75">
+            <strong class="text-brownSeed">Health benefits:</strong> See the <a class="font-semibold text-greenDeep" href="/resources/">Resources page</a> for educational benefit notes and research links.
+          </div>
+          <div class="mt-10 grid gap-6 md:grid-cols-2">
+            <article class="product-card rounded-lg p-7">
+              <h2 class="font-serif text-2xl">Dried whole leaf</h2>
+              <p class="mt-3">Whole dried leaves planned for customers who prefer a simple, recognizable botanical format.</p>
+            </article>
+            <article class="product-card rounded-lg p-7">
+              <h2 class="font-serif text-2xl">Dried cut mango leaf</h2>
+              <p class="mt-3">Cut dried leaves planned for easier measuring, blending, and steeping.</p>
+            </article>
+            <article class="product-card rounded-lg p-7">
+              <h2 class="font-serif text-2xl">Dried shredded mango leaf in tea bags</h2>
+              <p class="mt-3">Shredded leaf tea bags planned for convenient brewing and tidy storage.</p>
+            </article>
+            <article class="product-card rounded-lg p-7">
+              <h2 class="font-serif text-2xl">Dried mango leaf powder</h2>
+              <p class="mt-3">Fine powder planned for blending, encapsulation, specialty preparations, or ingredient trials.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+    </main>
+    <script src="../../script.js"></script>
+  </body>
+</html>

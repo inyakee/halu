@@ -1,0 +1,198 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="Restful Seed Farm resources on possible product health benefits and research links."
+    />
+    <title>Resources | Restful Seed Farm</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Inter:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              greenDeep: "#1f6b20",
+              greenCore: "#4a9f20",
+              brownSeed: "#5a2f1f",
+              cream: "#f3f1e6",
+            },
+            fontFamily: {
+              serif: ["Cormorant Garamond", "Times New Roman", "serif"],
+              sans: ["Inter", "system-ui", "-apple-system", "sans-serif"],
+            },
+            boxShadow: {
+              soft: "0 24px 60px rgba(17, 54, 8, 0.14)",
+            },
+          },
+        },
+      };
+    </script>
+    <link rel="stylesheet" href="../styles.css" />
+  </head>
+  <body class="product-page text-[#1b1b1b] font-sans">
+    <header class="sticky top-0 z-20 border-b border-brownSeed/10 bg-cream/85 backdrop-blur-xl">
+      <nav class="mx-auto flex max-w-6xl items-center justify-between px-6 py-5">
+        <a class="flex items-center gap-3 text-brownSeed" href="/" aria-label="Restful Seed Farm home">
+          <img
+            src="../assets/1818.png"
+            alt="Restful Seed Farm logo"
+            class="h-12 w-12 rounded-full object-cover shadow-soft"
+          />
+          <div class="grid">
+            <span class="font-serif text-lg">Restful Seed Farm</span>
+            <span class="text-[0.7rem] uppercase tracking-[0.2em] text-brownSeed/60">
+              Natural Agricultural Techniques
+            </span>
+          </div>
+        </a>
+        <button
+          class="nav-toggle flex flex-col gap-1.5 rounded-full border border-brownSeed/20 px-3 py-2 text-brownSeed lg:hidden"
+          aria-label="Toggle menu"
+          aria-expanded="false"
+        >
+          <span class="h-0.5 w-6 rounded-full bg-brownSeed"></span>
+          <span class="h-0.5 w-6 rounded-full bg-brownSeed"></span>
+          <span class="h-0.5 w-6 rounded-full bg-brownSeed"></span>
+        </button>
+        <div class="nav-menu hidden items-center gap-7 font-medium text-brownSeed lg:flex">
+          <a class="nav-link-underline" href="/#about">About</a>
+          <a class="nav-link-underline" href="/#services">Services</a>
+          <a class="nav-link-underline" href="/products/">Products</a>
+          <a class="nav-link-underline" href="/resources/">Resources</a>
+          <a class="nav-link-underline" href="/#why">Why Us</a>
+          <a class="nav-link-underline" href="/#contact">Contact</a>
+        </div>
+      </nav>
+      <div
+        class="nav-menu-mobile mx-auto hidden max-w-6xl flex-col gap-4 px-6 pb-5 text-brownSeed lg:hidden"
+      >
+        <a class="nav-link-underline" href="/#about">About</a>
+        <a class="nav-link-underline" href="/#services">Services</a>
+        <a class="nav-link-underline" href="/products/">Products</a>
+        <a class="nav-link-underline" href="/resources/">Resources</a>
+        <a class="nav-link-underline" href="/#why">Why Us</a>
+        <a class="nav-link-underline" href="/#contact">Contact</a>
+      </div>
+    </header>
+
+    <main>
+      <section class="section">
+        <div class="mx-auto max-w-6xl px-6">
+          <div class="max-w-3xl">
+            <p class="eyebrow text-brownSeed">Resource section</p>
+            <h1 class="mt-3 font-serif text-4xl leading-tight md:text-5xl">
+              Health benefits and research links.
+            </h1>
+            <p class="mt-5 text-lg text-brownSeed/75">
+              These notes are for general education only. They do not replace
+              medical advice, and the farm's possible products should not be
+              presented as treatments or cures.
+            </p>
+          </div>
+
+          <div class="mt-12 grid gap-6">
+            <article class="product-card rounded-lg p-8">
+              <span class="product-status">Ube</span>
+              <h2 class="mt-4 font-serif text-2xl">Purple yam and ube products</h2>
+              <p class="mt-3 text-brownSeed/75">
+                Ube, commonly known as purple yam, is valued for its purple color
+                from plant pigments and its naturally sweet, earthy flavor. It may
+                contribute carbohydrates, fiber, potassium, vitamin C, and
+                antioxidant compounds as part of a balanced diet.
+              </p>
+              <p class="mt-3 text-brownSeed/75">
+                Ube powder may offer a shelf-stable way to use ube color and
+                flavor in desserts, drinks, and baked goods. Benefits depend on
+                how the powder is processed and whether sugar or other ingredients
+                are added.
+              </p>
+              <div class="mt-5 grid gap-2 font-semibold text-greenDeep">
+                <a href="https://www.healthline.com/nutrition/ube-purple-yam" target="_blank" rel="noopener">Healthline: Ube / purple yam nutrition</a>
+                <a href="https://www.google.com/search?q=benefits+of+ube+powder&oq=benefits+of+ube+powder&gs_lcrp=EgZjaHJvbWUyCQgAEEUYORiABDIICAEQABgWGB4yDQgCEAAYhgMYgAQYigUyDQgDEAAYhgMYgAQYigUyDQgEEAAYhgMYgAQYigUyDQgFEAAYhgMYgAQYigUyCggGEAAYgAQYogQyBwgHEAAY7wUyCggIEAAYgAQYogQyBwgJEAAY7wXSAQk3NzgwajBqMTWoAgiwAgHxBUUs0qn-HrJR&sourceid=chrome&ie=UTF-8" target="_blank" rel="noopener">Research search: benefits of ube powder</a>
+              </div>
+            </article>
+
+            <article class="product-card rounded-lg p-8">
+              <span class="product-status">Pepper</span>
+              <h2 class="mt-4 font-serif text-2xl">Thai chili pepper</h2>
+              <p class="mt-3 text-brownSeed/75">
+                Chili peppers are known for capsaicin, the compound responsible
+                for their heat. In general nutrition research, peppers are also
+                associated with vitamin C, carotenoids, and antioxidant activity.
+              </p>
+              <p class="mt-3 text-brownSeed/75">
+                Fresh, dried, flaked, and powdered pepper formats can support
+                flavorful cooking while helping reduce reliance on excess salt or
+                heavy sauces.
+              </p>
+            </article>
+
+            <article class="product-card rounded-lg p-8">
+              <span class="product-status">Mango leaf</span>
+              <h2 class="mt-4 font-serif text-2xl">Sweet Elena mango leaf</h2>
+              <p class="mt-3 text-brownSeed/75">
+                Mango leaf research discusses Mangifera indica L. leaf powder,
+                including its plant compounds, powder characteristics, and
+                possible functional uses. Any consumer-facing wording should stay
+                educational until product testing, labeling, and regulatory review
+                are complete.
+              </p>
+              <p class="mt-3 text-brownSeed/75">
+                Planned formats include dried whole leaf, dried cut leaf,
+                shredded leaf in tea bags, and dried mango leaf powder.
+              </p>
+              <div class="mt-5 grid gap-2 font-semibold text-greenDeep">
+                <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC12141093/" target="_blank" rel="noopener">NIH / PMC: Comprehensive analysis of Mangifera indica L. leaf powder</a>
+                <a href="https://www.phytojournal.com/archives/2025/vol14issue1/PartB/14-1-8-139.pdf" target="_blank" rel="noopener">PDF research paper: Phytojournal mango leaf paper</a>
+                <a href="https://www.google.com/search?q=mango+leaves+research+paper+pdf&oq=mango+leaf+research&gs_lcrp=EgZjaHJvbWUqCAgCEAAYFhgeMgYIABBFGDkyCAgBEAAYFhgeMggIAhAAGBYYHjIICAMQABgWGB4yCAgEEAAYFhgeMggIBRAAGBYYHjIICAYQABgWGB4yCAgHEAAYFhgeMggICBAAGBYYHjINCAkQABiGAxiABBiKBdIBCjExOTkzajBqMTWoAgiwAgHxBfmu7GzjQGLz8QX5ruxs40Bi8w&sourceid=chrome&ie=UTF-8" target="_blank" rel="noopener">Research search: mango leaves research paper PDF</a>
+              </div>
+            </article>
+
+            <article class="product-card rounded-lg p-8">
+              <span class="product-status">Rice</span>
+              <h2 class="mt-4 font-serif text-2xl">Jasmine rice</h2>
+              <p class="mt-3 text-brownSeed/75">
+                Jasmine rice is a fragrant staple grain planned for limited stock.
+                As a rice product, it can provide energy from carbohydrates and
+                support simple meals when paired with vegetables, fruit, legumes,
+                fish, or other protein sources.
+              </p>
+              <p class="mt-3 text-brownSeed/75">
+                Final product details should distinguish variety, milling level,
+                and serving information once supply is confirmed.
+              </p>
+            </article>
+
+            <article class="product-card rounded-lg p-8">
+              <span class="product-status">Fresh Sweet Elena</span>
+              <h2 class="mt-4 font-serif text-2xl">Fresh Sweet Elena mango</h2>
+              <p class="mt-3 text-brownSeed/75">
+                Fresh mangoes are naturally colorful fruits that can contribute
+                vitamin C, fruit carbohydrates, and plant compounds as part of a
+                varied diet. Sweet Elena availability should be described as
+                seasonal and harvest-dependent.
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="bg-dark text-white">
+      <div class="mx-auto flex max-w-6xl flex-wrap items-center justify-between gap-4 px-6 py-8">
+        <p>Restful Seed Farm</p>
+        <a href="/#contact">Contact for availability</a>
+      </div>
+    </footer>
+    <script src="../script.js"></script>
+  </body>
+</html>

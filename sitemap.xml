@@ -4,4 +4,32 @@
     <loc>https://restfulseedfarm.com/</loc>
     <priority>1.0</priority>
   </url>
+  <url>
+    <loc>https://restfulseedfarm.com/products/</loc>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://restfulseedfarm.com/resources/</loc>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://restfulseedfarm.com/products/ube/</loc>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://restfulseedfarm.com/products/pepper/</loc>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://restfulseedfarm.com/products/mango-leaf/</loc>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://restfulseedfarm.com/products/rice/</loc>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://restfulseedfarm.com/products/sweet-elena/</loc>
+    <priority>0.6</priority>
+  </url>
 </urlset>
