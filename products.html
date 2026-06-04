@@ -39,7 +39,7 @@
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body class="product-page text-[#1b1b1b] font-sans">
-    <header class="sticky top-0 z-20 border-b border-brownSeed/10 bg-cream/90 backdrop-blur-xl">
+    <header class="sticky top-0 z-20 border-b border-brownSeed/10 bg-cream/85 backdrop-blur-xl">
       <nav class="mx-auto flex max-w-6xl items-center justify-between px-6 py-5">
         <a class="flex items-center gap-3 text-brownSeed" href="index.html" aria-label="Restful Seed Farm home">
           <img
@@ -54,14 +54,34 @@
             </span>
           </div>
         </a>
-        <div class="flex flex-wrap items-center gap-5 font-medium text-brownSeed">
+        <button
+          class="nav-toggle flex flex-col gap-1.5 rounded-full border border-brownSeed/20 px-3 py-2 text-brownSeed lg:hidden"
+          aria-label="Toggle menu"
+          aria-expanded="false"
+        >
+          <span class="h-0.5 w-6 rounded-full bg-brownSeed"></span>
+          <span class="h-0.5 w-6 rounded-full bg-brownSeed"></span>
+          <span class="h-0.5 w-6 rounded-full bg-brownSeed"></span>
+        </button>
+        <div class="nav-menu hidden items-center gap-7 font-medium text-brownSeed lg:flex">
           <a class="nav-link-underline" href="index.html#about">About</a>
           <a class="nav-link-underline" href="index.html#services">Services</a>
           <a class="nav-link-underline" href="products.html">Products</a>
+          <a class="nav-link-underline" href="resources.html">Resources</a>
           <a class="nav-link-underline" href="index.html#why">Why Us</a>
           <a class="nav-link-underline" href="index.html#contact">Contact</a>
         </div>
       </nav>
+      <div
+        class="nav-menu-mobile mx-auto hidden max-w-6xl flex-col gap-4 px-6 pb-5 text-brownSeed lg:hidden"
+      >
+        <a class="nav-link-underline" href="index.html#about">About</a>
+        <a class="nav-link-underline" href="index.html#services">Services</a>
+        <a class="nav-link-underline" href="products.html">Products</a>
+        <a class="nav-link-underline" href="resources.html">Resources</a>
+        <a class="nav-link-underline" href="index.html#why">Why Us</a>
+        <a class="nav-link-underline" href="index.html#contact">Contact</a>
+      </div>
     </header>
 
     <main>
@@ -135,5 +155,6 @@
         <a href="index.html#contact">Contact for availability</a>
       </div>
     </footer>
+    <script src="script.js"></script>
   </body>
 </html>
