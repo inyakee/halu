@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Pepper Products | Restful Seed Farm</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = { theme: { extend: { colors: { greenDeep: "#1f6b20", greenCore: "#4a9f20", brownSeed: "#5a2f1f", cream: "#f3f1e6" }, fontFamily: { serif: ["Cormorant Garamond", "Times New Roman", "serif"], sans: ["Inter", "system-ui", "-apple-system", "sans-serif"] } } } };
+    </script>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body class="product-page text-[#1b1b1b] font-sans">
+    <header class="border-b border-brownSeed/10 bg-cream/90">
+      <nav class="mx-auto flex max-w-6xl items-center justify-between px-6 py-5">
+        <a class="font-serif text-lg text-brownSeed" href="index.html">Restful Seed Farm</a>
+        <div class="flex flex-wrap gap-5 font-medium text-brownSeed">
+          <a href="products.html">Products</a>
+          <a href="index.html#contact">Contact</a>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <section class="section">
+        <div class="mx-auto max-w-5xl px-6">
+          <a class="font-semibold text-greenDeep" href="products.html">Back to products</a>
+          <span class="product-status mt-8">Soon to be available</span>
+          <h1 class="mt-4 font-serif text-4xl md:text-5xl">Pepper - Thai chili</h1>
+          <p class="mt-5 text-lg text-brownSeed/75">
+            A lively pepper line planned for bright heat, bold aroma, and flexible
+            kitchen use. Final pepper varieties are still being checked before
+            regular product naming.
+          </p>
+          <div class="product-note mt-8 rounded-md p-5 text-brownSeed/75">
+            Varieties: Coy and Thea to confirm with Marivic or Equel.
+          </div>
+          <div class="mt-10 grid gap-6 md:grid-cols-2">
+            <article class="product-card rounded-lg p-7">
+              <h2 class="font-serif text-2xl">Pepper fresh whole</h2>
+              <p class="mt-3">Fresh whole chilies planned for sauces, marinades, and dishes that need a clean spark of heat.</p>
+            </article>
+            <article class="product-card rounded-lg p-7">
+              <h2 class="font-serif text-2xl">Pepper dried whole</h2>
+              <p class="mt-3">Whole dried chilies planned for slow cooking, infused oils, spice jars, and pantry-ready flavor.</p>
+            </article>
+            <article class="product-card rounded-lg p-7">
+              <h2 class="font-serif text-2xl">Pepper dried flakes</h2>
+              <p class="mt-3">Crushed chili flakes planned for easy finishing, seasoning blends, and everyday table heat.</p>
+            </article>
+            <article class="product-card rounded-lg p-7">
+              <h2 class="font-serif text-2xl">Pepper powder</h2>
+              <p class="mt-3">Fine pepper powder planned for dry rubs, sauces, soups, and recipes that need even color and warmth.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>

@@ -132,6 +132,43 @@ body {
   width: 100%;
 }
 
+.nav-menu-mobile:not(.hidden) {
+  display: flex;
+}
+
+.nav-menu-mobile a {
+  width: fit-content;
+}
+
+.product-status {
+  display: inline-flex;
+  width: fit-content;
+  border-radius: 999px;
+  background: rgba(74, 159, 32, 0.16);
+  color: #1f6b20;
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  padding: 0.42rem 0.7rem;
+  text-transform: uppercase;
+}
+
+.product-page {
+  background:
+    linear-gradient(135deg, rgba(247, 244, 234, 0.92) 0%, rgba(227, 240, 207, 0.92) 48%, rgba(199, 225, 163, 0.9) 100%);
+}
+
+.product-card {
+  background: rgba(255, 255, 255, 0.72);
+  border: 1px solid rgba(74, 159, 32, 0.18);
+  box-shadow: 0 18px 40px rgba(20, 46, 10, 0.12);
+}
+
+.product-note {
+  border-left: 4px solid #4a9f20;
+  background: rgba(255, 255, 255, 0.56);
+}
+
 .reveal {
   opacity: 0;
   transform: translateY(22px);

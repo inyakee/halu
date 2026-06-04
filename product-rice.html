@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Jasmine Rice | Restful Seed Farm</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = { theme: { extend: { colors: { greenDeep: "#1f6b20", greenCore: "#4a9f20", brownSeed: "#5a2f1f", cream: "#f3f1e6" }, fontFamily: { serif: ["Cormorant Garamond", "Times New Roman", "serif"], sans: ["Inter", "system-ui", "-apple-system", "sans-serif"] } } } };
+    </script>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body class="product-page text-[#1b1b1b] font-sans">
+    <header class="border-b border-brownSeed/10 bg-cream/90">
+      <nav class="mx-auto flex max-w-6xl items-center justify-between px-6 py-5">
+        <a class="font-serif text-lg text-brownSeed" href="index.html">Restful Seed Farm</a>
+        <div class="flex flex-wrap gap-5 font-medium text-brownSeed">
+          <a href="products.html">Products</a>
+          <a href="index.html#contact">Contact</a>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <section class="section">
+        <div class="mx-auto max-w-5xl px-6">
+          <a class="font-semibold text-greenDeep" href="products.html">Back to products</a>
+          <span class="product-status mt-8">Limited stock planned</span>
+          <h1 class="mt-4 font-serif text-4xl md:text-5xl">Rice - Jasmine</h1>
+          <p class="mt-5 text-lg text-brownSeed/75">
+            A fragrant rice offering planned in limited stock only. This page
+            presents the possible product while the final scientific name and
+            supply details are being confirmed.
+          </p>
+          <div class="product-note mt-8 rounded-md p-5 text-brownSeed/75">
+            Scientific name: Coy and Thea to confirm.
+          </div>
+          <div class="mt-10 product-card rounded-lg p-7">
+            <h2 class="font-serif text-2xl">Limited stock</h2>
+            <p class="mt-3">
+              Planned as a small-quantity rice product for buyers who value aroma,
+              careful handling, and traceable farm availability.
+            </p>
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
